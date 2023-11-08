@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/code-interviewer/node_modules/
+/server/node_modules
+/frontend/code-interviewer/.pnp
+/frontend/code-interviewer/.pnp.js
+/frontend/code-interviewer/.yarn/install-state.gz
+server/.env
+
+# testing
+/frontend/code-interviewer/coverage
+
+# next.js
+/frontend/code-interviewer/.next/
+/frontend/code-interviewer/out/
+
+# production
+/frontend/code-interviewer/build
+
+# misc
+/frontend/code-interviewer/.DS_Store
+/frontend/code-interviewer/*.pem
+
+# debug
+/frontend/code-interviewer/npm-debug.log*
+/frontend/code-interviewer/yarn-debug.log*
+/frontend/code-interviewer/yarn-error.log*
+
+# local env files
+.env*.local
+.env*
+# vercel
+/frontend/code-interviewer/.vercel
+
+# typescript
+/frontend/code-interviewer/*.tsbuildinfo
+/frontend/code-interviewer/next-env.d.ts
